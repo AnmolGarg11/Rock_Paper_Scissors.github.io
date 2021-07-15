@@ -55,6 +55,8 @@ header{
    
     font-size: 20px;
     color: white;
+    
+    height : 100px;
 }
 
 .result > h1{
@@ -63,8 +65,9 @@ header{
 }
 
 .choices{
+    
     text-align: center;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .choice {
@@ -78,7 +81,7 @@ header{
 
 .choice:hover {
     cursor: pointer;
-    /* border: 3px solid blue; */
+    
 }
 
 #action-move{
@@ -109,4 +112,19 @@ header > h1{
     color: #25272E;
     text-align: center;
     font-family: Asap, sans-serif;
+}
+
+
+@media (max-width : 400px)
+{
+    .result{
+        font-size: 15px
+    }
+    .choice{
+        margin: 0 20px 20px 0;
+    }
+
+    .scoreboard{
+        margin: 25px auto;
+    }
 }
